@@ -31,3 +31,14 @@ let isLoggedIn = 1;
 let boolenStatus = Boolean(isLoggedIn);
 console.log(boolenStatus);
 
+
+// a++ increment after 
+// ++a increment befor  like moving left to right 
+let a = 4
+let b = a++;   
+console.log( b )   // assigned before increment
+console.log( ++b ) // increment and assigned
+console.log( a ) 
+
+
+
