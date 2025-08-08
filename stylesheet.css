@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    color: white;
+    transition: background-color 0.4s, color 0.3s;
+}
+pre{
+    font-weight: 1000;
+    font-size: 18px;
+}
+.theme-button{
+    position: relative;
+    left: 900px;
+    bottom: 60px;
+
+}
+.choices{
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+}
+#choices-container{
+display: flex;
+justify-content: center;
+gap: 10px;
+
+
+}
+.choices:hover{
+opacity: 0.8;
+cursor: pointer;}
+
+#score-board{
+    border: 1px solid green;
+    width: 200px;
+    position: relative;
+    left: 480px;
+    top: 20px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 20px;}
+
+#msg{
+position: relative;
+left: 550px;
+top: 30px;
+font-size: 2rem;}
