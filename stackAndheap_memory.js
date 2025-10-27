@@ -11,6 +11,7 @@
 
 
 // in heap original source  changed as it provide direct refrence to original source
+// in heap original source  changed as it provide direct refrence to original source
 
 
 
@@ -36,6 +37,8 @@ let user2=user1;
 user2.name="ankush"
 console.log(user1.name)
 console.log(user2.name)
+console.log(user2["name"])
+
 
 
 // it actually change in the heap memory i.e original data > source > original refrence

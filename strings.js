@@ -33,7 +33,7 @@
 
     console.log(stringSlice.toUpperCase())   // 3 is excluded
 
-    let Slice = name.slice(0,3)               // 3 is excluded
+    let Slice = name.slice(0,3)               // 3 is excluded ,original is changed
     console.log(Slice)
 
     // trim used to remove white space 
