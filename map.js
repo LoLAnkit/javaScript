@@ -7,5 +7,15 @@ const people = [
   { name: "Gita", age: 20, city: "Dharan" }
 ];
 
+let names = people.map(
+    function(p){
+        return p.name
+    }
+)
 
+let age = people.map(function(u){
+    return u.age
+})
 
+console.log(names);
+console.log(age);
